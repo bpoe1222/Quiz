@@ -2,16 +2,16 @@
 
 # Question 1 #
 
-* What is the color of the sky?
+* What tag is used to define an interactive field where users can enter data?
 
 # Question 2 #
 
-* How fast does the earth spin?
+* What tag is used to define an unordered list?
 
 # Question 3 #
 
-* What is the color of grass?
+* What declaration must be included at the beginning of an HTML document?
 
 # Question 4 #
 
-* Who won the World Series in 1968?
+* What tag is used to define the title?
