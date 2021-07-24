@@ -25,6 +25,10 @@ function timerCountdown () {
     countDownEl.innerHTML = `${minutes}:${seconds}`;
     time--;
     time = time < 1 ? 0 : time;
+
+    if(time === 0) {
+        return window.location.assign("../end/end.html")
+    }
     
 };
 
@@ -78,7 +82,9 @@ startGame = () => {
         localStorage.setItem('mostRecentScore', score);
 
         return window.location.assign("../end/end.html")
-    };
+    }
+
+    
 
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
@@ -131,5 +137,7 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 };
+
+
 
 startGame();

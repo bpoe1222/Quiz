@@ -60,7 +60,8 @@ body {
     height: 200px;
     margin-top: 32px;
     overflow: hidden;
-    border: 1px solid purple;
+    border-radius: 100px;
+    background: purple;
     color: white;
     font-size: 120px;
     display: flex;
@@ -83,7 +84,7 @@ body {
     width: 0%;
 } */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     .choice-container {
         min-width: 640px;
     }
