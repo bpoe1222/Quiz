@@ -55,20 +55,33 @@ body {
     text-align: center;
 }
 
-#progressBar {
+#timer {
+    width: 320px;
+    height: 200px;
+    margin-top: 32px;
+    overflow: hidden;
+    border: 1px solid purple;
+    color: white;
+    font-size: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* #progressBar {
     width: 320px;
     height: 48px;
     border: 3px solid greenyellow;
     margin-top: 32px;
     border-radius: 100px;
     overflow: hidden;
-}
+} */
 
-#progresBarFull {
+/* #progresBarFull {
     height: 100%;
     background: greenyellow;
     width: 0%;
-}
+} */
 
 @media screen and (max-width: 768px) {
     .choice-container {
